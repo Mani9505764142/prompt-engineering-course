@@ -1,7 +1,7 @@
 from helper import get_completion
 
 prompt = """
-Summarize the following in one simple sentence:
+Translate this sentence into three languages:1.Telugu 2. Tamil 3 . Hindi
 
 Prompt engineering helps us write clear instructions for AI models.
 """
