@@ -1,42 +1,38 @@
-# Prompt Engineering Course
+# Prompt Engineering Course – Practical Implementation
 
-This repository contains my hands-on practice from a Prompt Engineering course where I learn how to interact with Large Language Models using Python and the Gemini API.
+This repository contains my hands-on implementation of core prompt engineering techniques using Python and AI APIs.
 
-## Module 01 – Prompt Guidelines
+## 🚀 Topics Covered
 
-In this module I learned:
+* Zero-shot prompting
+* One-shot prompting
+* Few-shot prompting
+* Multi-shot prompting
+* Chain-of-thought reasoning
+* Prompt structuring
 
-- Setting up a Python virtual environment
-- Using environment variables for API keys
-- Integrating Gemini API using Python
-- Writing clear prompts for AI models
+## 🧠 What I Learned
 
-## Tech Stack
+* How to control AI outputs using structured prompts
+* How to improve consistency using few-shot and multi-shot techniques
+* How to apply chain-of-thought for problem solving
+* How to convert prompts into real-world use cases
 
-- Python
-- Gemini API
-- python-dotenv
+## 💻 Implementation
 
-## Project Structure
+All examples are implemented using Python and API-based model interaction.
 
-prompt-engineering-course/
-└── module-01-guidelines/
-    ├── helper.py
-    ├── practice.py
-    ├── requirements.txt
-    ├── teacher_notes.md
-    └── student_assignment.md
+## 📌 Key Files
 
-## How to Run
+* `01_zero_shot.py`
+* `02_one_shot.py`
+* `03_few_shot.py`
+* `04_multi_shot.py`
+* `05_chain_of_thought.py`
 
-1. Clone the repo
-2. Create virtual environment
-3. Install dependencies
+## 🔥 Next Steps
+Integrating prompts into real-world projects (AI Blog App, ATS Resume Analyzer)
 
-pip install -r requirements.txt
-
-4. Add Gemini API key in `.env`
-
-5. Run:
-
-python practice.py
+Improving output structure using JSON prompting
+* Integrating prompts into real-world projects (AI Blog App, ATS Resume Analyzer)
+* Improving output structure using JSON prompting
